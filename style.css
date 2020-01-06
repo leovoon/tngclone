@@ -11,16 +11,16 @@ body {
 .header {
     background: rgb(129, 32, 162);
     background: linear-gradient(328deg, rgba(129, 32, 162, 1) 0%, rgba(63, 63, 201, 1) 40%, rgba(0, 212, 255, 1) 99%);
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
     padding: 10px;
 }
 
 /* ewallet balance */
 .header h3 {
     color: rgba(233, 233, 233, 0.815);
-    font-size: .8   rem;
-    font-weight: 50;
+    font-size: .6rem;
+    font-weight: 300;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -204,7 +204,7 @@ body {
     height: 100px;
     background: rgba(238, 235, 235, 0.664);
     border-radius: 5px;
-    box-shadow: 0.3px 2px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0.3px 2px 3px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;
 }
@@ -238,8 +238,8 @@ body {
 .cardWrapper .card {
     width: 300px;
     background: rgb(210, 229, 255);
-    box-shadow: 0.3px 2px 6px rgba(0, 0, 0, 0.4);
-    padding-bottom: 140px;
+    box-shadow: 0.3px 2px 3px rgba(0, 0, 0, 0.4);
+    padding-bottom: 180px;
     margin: 20px;
     border-radius: 5px;
     flex: 0 0 auto;
@@ -289,15 +289,15 @@ body {
 .wrapcard .remindCard {
     width: 95%;
     background: rgba(238, 235, 235, 0.664);
-    box-shadow: 0.3px 2px 6px rgba(0, 0, 0, 0.4);
-    padding-bottom: 120px;
+    box-shadow: 0.3px 2px 3px rgba(0, 0, 0, 0.4);
+    padding-bottom: 100px;
     margin: 30px auto;
     border-radius: 5px;
     position: relative;
 }
 .wrapcard .remindCard p {
         width: 50%;
-        transform: translateY(100%);
+        transform: translateY(50%);
         line-height: 1.5rem;
     
         margin-left: 30%; 
